@@ -5,6 +5,7 @@ public class UsuarioDto {
     private Integer id;
     private String nombre = "";
     private String contrasena = "";
+    private String datos = "";
 
     public UsuarioDto() {
     }
@@ -33,12 +34,18 @@ public class UsuarioDto {
         this.contrasena = contrasena;
     }
 
+    public String getDatos() {
+        return datos;
+    }
+
+    public void setDatos(String datos) {
+        this.datos = datos;
+    }
+
     @Override
     public String toString() {
-        return "UsuarioDto{" +
-                "id=" + id +
+        return  "id=" + id +
                 ", nombre='" + nombre + '\'' +
-                ", contrasena='" + contrasena + '\'' +
-                '}';
+                ", datos='" + datos;
     }
 }
