@@ -20,5 +20,3 @@ public class UsuariosModel {
         usuarios.remove(usuario);
     }
 }
-
-        }
