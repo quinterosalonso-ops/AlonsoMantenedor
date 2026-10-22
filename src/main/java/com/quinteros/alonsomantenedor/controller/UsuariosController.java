@@ -11,8 +11,6 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
-;
-
 
 public class UsuariosController {
 
@@ -53,9 +51,9 @@ public class UsuariosController {
     public TableColumn colDatos;
 
     public void initialize(){
-        this.colId.setCellFactory(new PropertyValueFactory<>("id"));
-        this.colUsuario.setCellFactory(new PropertyValueFactory<>("usuario"));
-        this.colDatos.setCellFactory(new PropertyValueFactory<>("contrasena"));
+        this.colId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        this.colUsuario.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        this.colDatos.setCellValueFactory(new PropertyValueFactory<>("contrasena"));
 
         this.usuarios = FXCollections.observableArrayList();
         this.tableUsuarios.setItems(this.usuarios);
@@ -112,7 +110,4 @@ public class UsuariosController {
         this.usuarios.setAll(this.usuariosModel.getUsuarios());
         this.usuarioDtoEliminar = null;
     }
-
-
-
 }
