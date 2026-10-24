@@ -8,7 +8,7 @@
 <VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quinteros.alonsomantenedor.controller.UsuariosController">
    <children>
 
-      <Label alignment="CENTER" contentDisplay="CENTER" text="Blue" textAlignment="CENTER" textFill="#004dff">
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Modulo de Expansion y Registro Autonomo" textAlignment="CENTER" textFill="#004dff">
          <font>
             <Font name="Comic Sans MS Bold" size="25.0" />
          </font>
@@ -18,13 +18,13 @@
             <TextField fx:id="txtUsuario" promptText="Usuario" />
             <PasswordField fx:id="txtContrasena" promptText="Contraseña" />
             <Button fx:id="btnRegistrar" mnemonicParsing="false" onAction="#handleAgregarUsuario" text="Registrar" />
-            <Button fx:id="btnActualizar" mnemonicParsing="false" text="Actualizar" />
+
             <Separator orientation="VERTICAL" prefWidth="25.0">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets></Separator>
             <TextField fx:id="txtId" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="49.0" promptText="ID" />
-            <Button fx:id="btnEliminar" mnemonicParsing="false" onAction="#handleEliminarUsuario" text="Eliminar" textFill="RED" />
+            <Button fx:id="btnEliminar" disable="true" mnemonicParsing="false" onAction="#handleEliminarUsuario" text="Eliminar" textFill="RED" />
          </children>
       </HBox>
       <TableView fx:id="tableUsuarios" onMouseClicked="#handleSeleccionar" prefHeight="200.0" prefWidth="200.0">

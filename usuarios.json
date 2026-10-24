@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1792828951960,
+    "nombre": "Juan",
+    "contrasena": "Valdez",
+    "datos": "M.E.R.A. te da la bienvenida"
+  },
+  {
+    "id": 1792828975374,
+    "nombre": "Juana",
+    "contrasena": "Test",
+    "datos": "No mas Tests."
+  },
+  {
+    "id": 1792828979063,
+    "nombre": "Juana",
+    "contrasena": "Test",
+    "datos": "Quizas un par mas."
+  },
+  {
+    "id": 1792828983193,
+    "nombre": "Juana",
+    "contrasena": "de arco",
+    "datos": "Base establecida."
+  },
+  {
+    "id": 1792828995934,
+    "nombre": "Barbara",
+    "contrasena": "Barbie",
+    "datos": "No mas Tests."
+  },
+  {
+    "id": 1792829054808,
+    "nombre": "Lain",
+    "contrasena": "Estuvo aqui",
+    "datos": "M.E.R.A. te da la bienvenida"
+  },
+  {
+    "id": 1792829096579,
+    "nombre": "asd",
+    "contrasena": "asd asd",
+    "datos": "Nave generada automaticamente con 1 aviso de suspension, primer aviso."
+  }
+]
